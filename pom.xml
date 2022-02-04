@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>mx.com.netpay.checkout-sdk-legacy</groupId>
+  <artifactId>netpay-sdklegacy-realese</artifactId>
+  <version>2.0.0</version>
+
+
+  <repositories>
+    <repository>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>never</updatePolicy>
+        <checksumPolicy>warn</checksumPolicy>
+      </releases>
+      <name>mvn-google</name>
+      <id>mvn-repo-google</id>
+      <url>https://maven.google.com</url>
+      <layout>default</layout>
+    </repository>
+
+    <repository>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>never</updatePolicy>
+        <checksumPolicy>warn</checksumPolicy>
+      </releases>
+      <name>mvnrepositoryMVN2</name>
+      <id>mvn-repo1-mvn2</id>
+      <url>https://repo1.maven.org/maven2</url>
+      <layout>default</layout>
+    </repository>
+
+  </repositories>
+
+  <scm>
+    <connection>scm:git:https://android.googlesource.com/platform/frameworks/support</connection>
+    <url>http://source.android.com</url>
+  </scm>
+ 
+<dependencies>
+
+    <dependency>
+      <artifactId>gson</artifactId>
+      <groupId>com.google.code.gson</groupId>
+      <version>2.8.6</version>
+      <scope>compile</scope>
+    </dependency>
+
+    <dependency>
+      <artifactId>retrofit</artifactId>
+      <groupId>com.squareup.retrofit2</groupId>
+      <version>2.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+
+    <dependency>
+      <artifactId>converter-gson</artifactId>
+      <groupId>com.squareup.retrofit2</groupId>
+      <version>2.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+
+    <dependency>
+      <artifactId>logging-interceptor</artifactId>
+      <groupId>com.squareup.okhttp3</groupId>
+      <version>4.7.2</version>
+      <scope>compile</scope>
+    </dependency>
+
+    <dependency>
+      <artifactId>lazysodium-android</artifactId>
+      <groupId>com.goterl</groupId>
+      <version>5.0.2</version>
+      <scope>compile</scope>
+      <type>aar</type>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <dependency>
+      <artifactId>jna</artifactId>
+      <groupId>net.java.dev.jna</groupId>
+      <version>5.8.0</version>
+      <scope>compile</scope>
+      <type>aar</type>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <dependency>
+      <artifactId>lottie</artifactId>
+      <groupId>com.airbnb.android</groupId>
+      <version>2.7.0</version>
+      <scope>compile</scope>
+      <classifier>sources</classifier>
+    </dependency>
+
+    <dependency>
+      <artifactId>appcompat</artifactId>
+      <groupId>androidx.appcompat</groupId>
+      <version>1.4.1</version>
+      <scope>runtime</scope>
+    </dependency>
+
+    <dependency>
+      <artifactId>material</artifactId>
+      <groupId>com.google.android.material</groupId>
+      <version>1.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+
+  </dependencies>
+
+
+
+</project>
+
+
