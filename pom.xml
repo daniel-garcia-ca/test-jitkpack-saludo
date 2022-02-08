@@ -60,6 +60,7 @@
       <groupId>com.airbnb.android</groupId>
       <version>4.2.1</version>
       <scope>compile</scope>
+      <classifier>sources</classifier>
     </dependency>
     <dependency>
       <artifactId>appcompat</artifactId>
