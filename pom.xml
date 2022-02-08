@@ -4,6 +4,7 @@
   <groupId>com.example.examplelibrary</groupId>
   <artifactId>examplelibrary-realese</artifactId>
   <version>1.0.0</version>
+  
   <dependencies>
     <dependency>
       <artifactId>gson</artifactId>
@@ -11,24 +12,28 @@
       <version>2.8.6</version>
       <scope>compile</scope>
     </dependency>
+
     <dependency>
       <artifactId>retrofit</artifactId>
       <groupId>com.squareup.retrofit2</groupId>
       <version>2.9.0</version>
       <scope>compile</scope>
     </dependency>
+
     <dependency>
       <artifactId>converter-gson</artifactId>
       <groupId>com.squareup.retrofit2</groupId>
       <version>2.9.0</version>
       <scope>compile</scope>
     </dependency>
+
     <dependency>
       <artifactId>logging-interceptor</artifactId>
       <groupId>com.squareup.okhttp3</groupId>
       <version>4.7.2</version>
       <scope>compile</scope>
     </dependency>
+
     <dependency>
       <artifactId>lazysodium-android</artifactId>
       <groupId>com.goterl</groupId>
@@ -42,6 +47,7 @@
         </exclusion>
       </exclusions>
     </dependency>
+
     <dependency>
       <artifactId>jna</artifactId>
       <groupId>net.java.dev.jna</groupId>
@@ -55,6 +61,7 @@
         </exclusion>
       </exclusions>
     </dependency>
+
     <dependency>
       <artifactId>lottie</artifactId>
       <groupId>com.airbnb.android</groupId>
@@ -62,17 +69,21 @@
       <scope>compile</scope>
       <classifier>sources</classifier>
     </dependency>
+
     <dependency>
       <artifactId>appcompat</artifactId>
       <groupId>androidx.appcompat</groupId>
       <version>1.4.1</version>
       <scope>runtime</scope>
+      <type>aar</type>
     </dependency>
+
     <dependency>
       <artifactId>material</artifactId>
       <groupId>com.google.android.material</groupId>
       <version>1.5.0</version>
       <scope>runtime</scope>
+      <type>aar</type>
     </dependency>
   </dependencies>
 </project>
