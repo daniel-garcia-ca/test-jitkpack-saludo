@@ -99,7 +99,7 @@
     <dependency>
       <artifactId>lottie</artifactId>
       <groupId>com.airbnb.android</groupId>
-      <version>2.7.0</version>
+      <version>4.2.1</version>
       <scope>compile</scope>
       <classifier>sources</classifier>
     </dependency>
