@@ -4,6 +4,22 @@
   <groupId>com.example.examplelibrary</groupId>
   <artifactId>examplelibrary-realese</artifactId>
   <version>1.0.0</version>
+
+  <repositories>
+
+    <repository>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>never</updatePolicy>
+        <checksumPolicy>warn</checksumPolicy>
+      </releases>
+      <name>mvn-google</name>
+      <id>mvn-repo-google</id>
+      <url>https://maven.google.com</url>
+      <layout>default</layout>
+    </repository>
+
+ </repositories>
   
   <dependencies>
     <dependency>
