@@ -4,7 +4,6 @@
   <groupId>com.example.examplelibrary</groupId>
   <artifactId>examplelibrary-realese</artifactId>
   <version>1.0.0</version>
-  <packaging>aar</packaging>
   <dependencies>
     <dependency>
       <artifactId>gson</artifactId>
