@@ -7,7 +7,7 @@
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
 \f0\fs24 \cf0 install:\
-	- FILE=\'93-Dfile=examplelibrary-realese-1.0.0.aar\'94\
+	- FILE=\'93-Dfile=examplelibrary-realese-1.1.2.aar\'94\
 	- mvn install:install-file $FILE 
 \f1 \cf2 \expnd0\expndtw0\kerning0
 -
