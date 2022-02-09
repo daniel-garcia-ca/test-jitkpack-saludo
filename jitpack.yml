@@ -8,6 +8,6 @@
 
 \f0\fs24 \cf2 \expnd0\expndtw0\kerning0
 install:\
-  - FILE="-Dfile=examplelibrary-realese-1.1.7.aar"\
+  - FILE="-Dfile=examplelibrary-np-sdk-1.1.8.aar"\
   - mvn install:install-file $FILE -Dpackaging=aar -DpomFile=pom.xml\
 }
